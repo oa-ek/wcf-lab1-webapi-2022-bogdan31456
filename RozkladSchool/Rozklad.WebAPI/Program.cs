@@ -47,8 +47,8 @@ builder.Services.AddSwaggerGen(options =>
         Description = "Education project with KN3, Ostroh Academy",
         Contact = new Microsoft.OpenApi.Models.OpenApiContact
         {
-            Email = "pavlo.koshubinskyi@oa.edu.ua",
-            Name = "Pavlo Koshubinskyi"
+            Email = "bohdan.laptiev@oa.edu.ua",
+            Name = "Laptiev Bohdan"
         }
 
     });
