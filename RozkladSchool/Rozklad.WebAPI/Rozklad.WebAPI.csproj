@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Rozklad.Infrastructure\Rozklad.Infrastructure.csproj" />
     <ProjectReference Include="..\Rozklad.Repository\Rozklad.Repository.csproj" />
   </ItemGroup>
 

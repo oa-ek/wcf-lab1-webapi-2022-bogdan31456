@@ -24,7 +24,7 @@ namespace Rozklad.Repository.Repositories
 
         public async Task<IEnumerable<DisciplineReadDto>> GetListAsync()
         {
-            return _mapper.Map<IEnumerable<DisciplineReadDto>>(await _ctx.ClassRooms.ToListAsync());
+            return _mapper.Map<IEnumerable<DisciplineReadDto>>(await _ctx.Disciplines.ToListAsync());
 
         }
 

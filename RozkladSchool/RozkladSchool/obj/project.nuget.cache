@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sq2pgOdpShDvu80ERKY9zc+0463tFKAmiDRxtI4H2JOL6drCELEij1It8JN3c7J25nVY6rmxOel1MvpL2pDOGA==",
+  "dgSpecHash": "HekH99EX+R1i+JuVie4z9BgNSvhhbpELANIDxGYySGA8SAN1QdH/GW1drDn81hp7wxHj+kUW0ivLOUSPgtXmbg==",
   "success": true,
-  "projectFilePath": "D:\\WebApi\\RozkladSchool\\RozkladSchool\\RozkladSchool.csproj",
+  "projectFilePath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\RozkladSchool\\RozkladSchool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -14,6 +14,19 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1264,6 +1277,20 @@
           "bin/placeholder/Rozklad.Core.dll": {}
         }
       },
+      "Rozklad.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Rozklad.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rozklad.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rozklad.Infrastructure.dll": {}
+        }
+      },
       "Rozklad.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1295,6 +1322,20 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+      "sha512": "XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -3253,6 +3294,11 @@
       "path": "../Rozklad.Core/Rozklad.Core.csproj",
       "msbuildProject": "../Rozklad.Core/Rozklad.Core.csproj"
     },
+    "Rozklad.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Rozklad.Infrastructure/Rozklad.Infrastructure.csproj",
+      "msbuildProject": "../Rozklad.Infrastructure/Rozklad.Infrastructure.csproj"
+    },
     "Rozklad.Repository/1.0.0": {
       "type": "project",
       "path": "../Rozklad.Repository/Rozklad.Repository.csproj",
@@ -3261,6 +3307,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Rozklad.Infrastructure >= 1.0.0",
       "Rozklad.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -3272,11 +3319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebApi\\RozkladSchool\\Rozklad.WebAPI\\Rozklad.WebAPI.csproj",
+      "projectUniqueName": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.WebAPI\\Rozklad.WebAPI.csproj",
       "projectName": "Rozklad.WebAPI",
-      "projectPath": "D:\\WebApi\\RozkladSchool\\Rozklad.WebAPI\\Rozklad.WebAPI.csproj",
+      "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.WebAPI\\Rozklad.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WebApi\\RozkladSchool\\Rozklad.WebAPI\\obj\\",
+      "outputPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3297,8 +3344,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\WebApi\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj": {
-              "projectPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj"
+            "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj": {
+              "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj"
+            },
+            "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj": {
+              "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj"
             }
           }
         }

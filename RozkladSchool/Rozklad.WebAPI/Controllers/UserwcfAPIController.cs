@@ -23,10 +23,7 @@ namespace Rozklad.WebAPI.Controllers
             return userAPIRepository;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+       
         [HttpGet("GetPupilListAsync")]
         public async Task<IEnumerable<UserReadDto>> GetListAsync()
         {

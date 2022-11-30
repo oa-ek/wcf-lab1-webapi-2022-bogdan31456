@@ -3103,11 +3103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebApi\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj",
+      "projectUniqueName": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj",
       "projectName": "Rozklad.Infrastructure",
-      "projectPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj",
+      "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Infrastructure\\Rozklad.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Infrastructure\\obj\\",
+      "outputPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3128,8 +3128,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\WebApi\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj": {
-              "projectPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj"
+            "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj": {
+              "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj"
             }
           }
         }

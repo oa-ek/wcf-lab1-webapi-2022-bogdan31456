@@ -2515,11 +2515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebApi\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
+      "projectUniqueName": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
       "projectName": "Rozklad.Core",
-      "projectPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
+      "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WebApi\\RozkladSchool\\Rozklad.Core\\obj\\",
+      "outputPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

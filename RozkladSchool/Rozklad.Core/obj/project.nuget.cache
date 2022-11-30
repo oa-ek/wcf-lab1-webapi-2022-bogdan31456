@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8//Puy6NLP7k2RpimuUkWSJsc2c05EimI4GDBmXpIR3vaYfz7+iYKYqEd85pwM1/NuA/9fjWravvNMLxwpg49A==",
+  "dgSpecHash": "V/TRVAc4jexOixwnioVzVd0VY+UazC6baetT82QOqjRmDKwNqNojEZaU8XHponie45HtzbtbC+wRo+lJB4HSvQ==",
   "success": true,
-  "projectFilePath": "D:\\WebApi\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
+  "projectFilePath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Core\\Rozklad.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",

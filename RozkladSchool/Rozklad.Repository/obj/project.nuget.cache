@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LMGI0O2Lxr7HBi9KZlEjtQpk7SI5vQou5RK+hCSRmqPWvtCeJZRp+HPHNaQeA4UYrfjhe85hCu8f1yl1IIj72A==",
+  "dgSpecHash": "YUzAhwxnvoBIiA8AwvrPBeRwyTxhp/fq4/7fGcCiYqrbCdlVXupy28i5pBchI+DHQmqdV8Am8ZMFzOuMh57fPw==",
   "success": true,
-  "projectFilePath": "D:\\WebApi\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj",
+  "projectFilePath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
