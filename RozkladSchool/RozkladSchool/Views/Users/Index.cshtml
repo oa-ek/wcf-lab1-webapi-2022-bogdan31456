@@ -1,0 +1,63 @@
+﻿@using Rozklad.Repository.Dto
+@model IEnumerable<UserReadDto>
+
+@{
+    Layout = "/Views/Shared/_DashminBlankLayout.cshtml";
+}
+<meta name='viewport' content='width=device-width,initial-scale=1'/>
+<meta content='true' name='HandheldFriendly'/>
+<meta content='width' name='MobileOptimized'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+<div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light rounded h-100 p-4">
+<div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light rounded h-100 p-4">
+                            <h6 class="mb-4">Користувачі</h6>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                       <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                        <th scope="col"> FullName</th>
+                                        <th scope="col"> Email</th>
+                                        <th scope="col"> Confirmed</th>
+                                        <th scope="col"> Roles</th>
+                                        <th scope="col"> Actions</th>
+                                        <th scope="col"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+<meta content='true' name='HandheldFriendly'/>
+<meta content='width' name='MobileOptimized'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+        @foreach(var u in Model)
+        {
+            <tr>
+                <td><input class="form-check-input" type="checkbox"></td>
+                <td>@u.FirstName @u.LastName</td>
+                <td>@u.Email</td>
+                <td>@u.IsConfirmed</td>
+                <td>
+                    @string.Join(", ", u.Roles.Select(x=> x.Name))
+                </td>
+
+
+                <td>
+                    <a href="/users/edit/@u.Id" class="btn btn-sm btn-primary">Редагувати</a>
+                    
+
+                </td>
+                <td><a href="/users/delete/@u.Id" class="btn btn-sm btn-danger">Видалити</a></td>
+
+
+            </tr>
+        }
+    </tbody>
+
+<td><a href="/users/create" class="btn  btn-primary">Додати користувача</a></td>
+<td><a href="/Home/Index" class="btn btn-outline-dark">Повернутися на головну</a></td>
+

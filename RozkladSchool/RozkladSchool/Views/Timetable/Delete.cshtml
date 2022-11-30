@@ -1,0 +1,32 @@
+﻿@using Rozklad.Repository.Dto.TimetableDto
+
+@model TimetableReadDto
+
+@{
+     Layout = "/Views/Shared/_DashminBlankLayout.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light rounded h-100 p-4">
+<h1>Confirm delete</h1>
+<hr/>
+
+<p> @Model.DisciplineName @Model.CabinetName @Model.LessonName @Model.TeacherName </p>
+
+<hr />
+<form asp-action="ConfirmDelete" class="col-mb-4">
+    @Html.AntiForgeryToken()
+    <input asp-for="TimetableId" type="hidden"/>
+   
+    <button type="submit" class="btn btn-primary">Видалити оголошення</button>
+
+    <a href="/Home/Index" class="btn btn-outline-dark">Повернутися до списку</a>
+</form>
+
+
+
+
+
+
