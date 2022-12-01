@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Rozklad.Repository.Dto.DisciplineDto;
 using Rozklad.Repository.Repositories;
+using Rozklad.Core;
 
 namespace Rozklad.WebAPI.Controllers
 {
@@ -23,7 +24,23 @@ namespace Rozklad.WebAPI.Controllers
             return await disciplineApiRepository.GetListAsync();
         }
 
-        
+        [HttpPost]
+        public async Task<Discipline> Create(DisciplineCreateDto disDto)
+        {
+            var createdDiscipline = await disciplineApiRepository.AddDiscipline(disDto);
+            return createdDiscipline;
+        }
+        [HttpPut]
+        public async Task Edit(DisciplineCreateDto dis)
+        {
+            await disciplineApiRepository.UpdateDiscipline(dis);
+        }
 
+        [HttpDelete("{id}")]
+        public async Task Delete(int id)
+        {
+            await disciplineApiRepository.DeleteDiscipline(id);
+        }
     }
 }
+

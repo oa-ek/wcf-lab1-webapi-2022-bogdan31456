@@ -26,7 +26,46 @@ namespace Rozklad.Repository.Repositories
             return _mapper.Map<IEnumerable<ClassRoomReadDto>>(await _ctx.ClassRooms.ToListAsync());
 
         }
+        public async Task<ClassRoom> AddClassRoom(ClassCreateDto classDto)
+        {
+            var cls = new ClassRoom();
+            cls.ClassRoomId = classDto.ClassRoomId;
+            cls.ClassRoomName= classDto.Name;
+            _ctx.ClassRooms.Add(cls);
+            await _ctx.SaveChangesAsync();
+            return _ctx.ClassRooms.FirstOrDefault(x => x.ClassRoomName == cls.ClassRoomName);
+        }
 
+
+        public async Task UpdateClass(ClassCreateDto updatedClass)
+        {
+            var classRoom = _ctx.ClassRooms.FirstOrDefault(x => x.ClassRoomId== updatedClass.ClassRoomId);
+            classRoom.ClassRoomName = updatedClass.ClassRoomName;
+            //cabinet.Name = updatedCabinet.Name;
+            await _ctx.SaveChangesAsync();
+        }
+
+        public async Task DeleteClass(int id)
+        {
+            _ctx.Remove(GetClass(id));
+            await _ctx.SaveChangesAsync();
+        }
+
+        public List<ClassRoom> GetClass()
+        {
+            var classroomList = _ctx.ClassRooms.ToList();
+            return classroomList;
+        }
+
+        public ClassRoom GetClass(int id)
+        {
+            return _ctx.ClassRooms.FirstOrDefault(x => x.ClassRoomId == id);
+        }
+
+        public ClassRoom GetClassname(string name)
+        {
+            return _ctx.ClassRooms.FirstOrDefault(x => x.ClassRoomName == name);
+        }
         //public async Task<IEnumerable<CabinetReadDto>> GetItemAsync(string name)
         //{
         // return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == name);

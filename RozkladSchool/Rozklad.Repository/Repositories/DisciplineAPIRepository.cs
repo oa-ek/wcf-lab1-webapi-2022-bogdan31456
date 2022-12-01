@@ -28,6 +28,44 @@ namespace Rozklad.Repository.Repositories
 
         }
 
+        public async Task<Discipline> AddDiscipline(DisciplineCreateDto disDto)
+        {
+            var dis = new Discipline();
+            dis.DisciplineId = disDto.DisciplineId;
+            dis.DisciplineName = disDto.DisciplineName;
+            _ctx.Disciplines.Add(dis);
+            await _ctx.SaveChangesAsync();
+            return _ctx.Disciplines.FirstOrDefault(x => x.DisciplineName == dis.DisciplineName);
+        }
+        public async Task UpdateDiscipline(DisciplineCreateDto updateDiscipline)
+        {
+            var discipline = _ctx.Disciplines.FirstOrDefault(x => x.DisciplineId == updateDiscipline.DisciplineId);
+            discipline.DisciplineName = updateDiscipline.DisciplineName;
+            //cabinet.CabinetName = updatedCabinet.Name;
+            await _ctx.SaveChangesAsync();
+        }
+
+        public async Task DeleteDiscipline(int id)
+        {
+            _ctx.Remove(GetDiscipline(id));
+            await _ctx.SaveChangesAsync();
+        }
+
+        public List<Discipline> GetDiscipline()
+        {
+            var cabinetList = _ctx.Disciplines.ToList();
+            return cabinetList;
+        }
+
+        public Discipline GetDiscipline(int id)
+        {
+            return _ctx.Disciplines.FirstOrDefault(x => x.DisciplineId == id);
+        }
+
+        public Discipline GetDisciplineByName(string name)
+        {
+            return _ctx.Disciplines.FirstOrDefault(x => x.DisciplineName == name);
+        }
         //public async Task<IEnumerable<CabinetReadDto>> GetItemAsync(string name)
         //{
         // return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == name);

@@ -27,9 +27,45 @@ namespace Rozklad.Repository.Repositories
 
         }
 
-        //public async Task<IEnumerable<CabinetReadDto>> GetItemAsync(string name)
-        //{
-           // return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == name);
-        //}
+
+        public async Task<Cabinet> AddCabinet(CabinetCreateDto cabDto)
+        {
+            var cab = new Cabinet();
+            cab.CabinetName = cabDto.Name;
+            cab.RoomCapacity = cabDto.RoomCapacity;
+            _ctx.Cabinets.Add(cab);
+            await _ctx.SaveChangesAsync();
+            return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == cab.CabinetName);
+        }
+
+        public async Task UpdateCabinetAsync(CabinetCreateDto updatedCabinet)
+        {
+            var cabinet = _ctx.Cabinets.FirstOrDefault(x => x.CabinetId == updatedCabinet.CabinetId);
+            cabinet.RoomCapacity = updatedCabinet.RoomCapacity;
+            cabinet.CabinetName = updatedCabinet.Name;
+            await _ctx.SaveChangesAsync();
+        }
+
+        public async Task DeleteCabinetAsync(int id)
+        {
+            _ctx.Remove(GetCabinet(id));
+            await _ctx.SaveChangesAsync();
+        }
+
+        public List<Cabinet> GetCabinets()
+        {
+            var cabinetList = _ctx.Cabinets.ToList();
+            return cabinetList;
+        }
+
+        public Cabinet GetCabinet(int id)
+        {
+            return _ctx.Cabinets.FirstOrDefault(x => x.CabinetId == id);
+        }
+
+        public Cabinet GetCabinetByName(string name)
+        {
+            return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == name);
+        }
     }
 }
