@@ -40,7 +40,7 @@ namespace Rozklad.Repository.Repositories
 
         public async Task UpdateCabinetAsync(CabinetCreateDto updatedCabinet)
         {
-            var cabinet = _ctx.Cabinets.FirstOrDefault(x => x.CabinetId == updatedCabinet.CabinetId);
+           var cabinet = _ctx.Cabinets.FirstOrDefault(x => x.CabinetId == updatedCabinet.CabinetId);
             cabinet.RoomCapacity = updatedCabinet.RoomCapacity;
             cabinet.CabinetName = updatedCabinet.Name;
             await _ctx.SaveChangesAsync();
