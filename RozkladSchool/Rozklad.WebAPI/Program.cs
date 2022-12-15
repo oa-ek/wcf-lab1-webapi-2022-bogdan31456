@@ -23,7 +23,7 @@ builder.Services.AddScoped<LessonAPIRepository>();
 builder.Services.AddScoped<TeacherAPIRepository>();
 builder.Services.AddScoped<DisciplineAPIRepository>();
 builder.Services.AddScoped<ClassRoomAPIRepository>();
-//builder.Services.AddScoped<TimetableAPIRepository>();
+builder.Services.AddScoped<TimetableAPIRepository>();
 builder.Services.AddScoped<LessonAPIRepository>();
 builder.Services.AddScoped<PupilAPIRepository>();
 //builder.Services.AddScoped<UsersAPIRepository>();

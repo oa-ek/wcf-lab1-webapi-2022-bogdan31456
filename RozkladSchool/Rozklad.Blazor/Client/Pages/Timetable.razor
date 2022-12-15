@@ -1,0 +1,56 @@
+﻿
+
+@page "/timetable"
+@using Rozklad.Repository.Dto.TimetableDto
+@using Rozklad.Core
+@using Rozklad.Repository
+@using Rozklad.Repository.Dto.CabinetDto
+@using Rozklad.Repository.Dto.ClassDto
+
+
+@using Rozklad.Repository.Dto.TeacherDto
+@using Rozklad.Repository.Dto.PupilDto
+
+
+
+
+
+@inject HttpClient Http
+<h3>Timetable</h3>
+
+<PageTitle>Timetable</PageTitle>
+
+
+
+<p>This component demonstrates fetching data from the server.</p>
+
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+               
+            <th>День</th>
+            <th>Дисципліна</th>
+            <th>Кабінет</th>
+               <th>Вчитель</th>      
+                     <th>Початок</th>
+                     <th>Закінчення</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+
+
+@code {
+     private  Timetable[]? timetables;
+      protected override async Task OnInitializedAsync()
+    {
+        timetables= await Http.GetFromJsonAsync<Timetable[]>("WeatherForecast");
+    }
+}
+

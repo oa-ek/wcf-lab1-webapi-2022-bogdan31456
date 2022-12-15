@@ -26,5 +26,12 @@ namespace Rozklad.Repository.Repositories
             return _mapper.Map<IEnumerable<TimetableReadDto>>(await _ctx.Timetables.ToListAsync());
 
         }
+
+
+        public List<Timetable> GetTimetable()
+        {
+            var timetable = _ctx.Timetables.ToList();
+            return timetable;
+        }
     }
 }

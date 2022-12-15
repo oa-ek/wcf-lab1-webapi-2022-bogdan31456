@@ -1,0 +1,12 @@
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\bin\Debug\net6.0\Rozklad.Blazor.Shared.deps.json
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\bin\Debug\net6.0\Rozklad.Blazor.Shared.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\bin\Debug\net6.0\Rozklad.Blazor.Shared.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.csproj.AssemblyReference.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.AssemblyInfoInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.AssemblyInfo.cs
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.csproj.CoreCompileInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\refint\Rozklad.Blazor.Shared.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\Rozklad.Blazor.Shared.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Shared\obj\Debug\net6.0\ref\Rozklad.Blazor.Shared.dll

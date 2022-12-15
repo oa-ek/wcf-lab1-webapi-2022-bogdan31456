@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "frYRpmVBCObZ1h5rFcV4XzfxELLBVLlmaojhyww5BUXbGJ1qYd3yLfYUPocXG1AjsFWSZY5XHR2Q0QMqGNZXGg==",
+  "success": true,
+  "projectFilePath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.BlazorApp\\Server\\Rozklad.BlazorApp.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.3\\microsoft.aspnetcore.components.webassembly.server.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

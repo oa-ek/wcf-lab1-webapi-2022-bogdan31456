@@ -16,7 +16,11 @@ namespace Rozklad.WebAPI.Controllers
 
             this.disciplineApiRepository = disciplineApiRepository;
         }
-
+        [HttpGet("discipline/{id}")]
+        public Discipline GetDiscipline(int id)
+        {
+            return disciplineApiRepository.GetDiscipline(id);
+        }
         [HttpGet]
 
         public async Task<IEnumerable<DisciplineReadDto>> GetListAsync()

@@ -18,7 +18,11 @@ namespace Rozklad.WebAPI.Controllers
 
             this.classroomApiRepository = classroomApiRepository;
         }
-
+        [HttpGet("classroom/{id}")]
+        public ClassRoom GetClass(int id)
+        {
+            return classroomApiRepository.GetClass(id);
+        }
         [HttpGet]
 
         public async Task<IEnumerable<ClassRoomReadDto>> GetListAsync()

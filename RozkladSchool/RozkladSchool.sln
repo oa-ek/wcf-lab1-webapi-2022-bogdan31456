@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozklad.WebAPI", "Rozklad.W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozklad.Infrastructure", "Rozklad.Infrastructure\Rozklad.Infrastructure.csproj", "{34C8DA62-8EA4-49BA-B182-E85FD7856AE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Blazor.Server", "Rozklad.Blazor\Server\Rozklad.Blazor.Server.csproj", "{0B08DDF0-3353-4B73-BC58-84AED3CA4F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Blazor.Client", "Rozklad.Blazor\Client\Rozklad.Blazor.Client.csproj", "{4C6BBD69-97A1-4B0E-A04E-C37B63E9B9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Blazor.Shared", "Rozklad.Blazor\Shared\Rozklad.Blazor.Shared.csproj", "{6C465632-C421-444F-AB03-A8D5E8794CAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{34C8DA62-8EA4-49BA-B182-E85FD7856AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C8DA62-8EA4-49BA-B182-E85FD7856AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C8DA62-8EA4-49BA-B182-E85FD7856AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B08DDF0-3353-4B73-BC58-84AED3CA4F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B08DDF0-3353-4B73-BC58-84AED3CA4F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B08DDF0-3353-4B73-BC58-84AED3CA4F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B08DDF0-3353-4B73-BC58-84AED3CA4F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6BBD69-97A1-4B0E-A04E-C37B63E9B9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6BBD69-97A1-4B0E-A04E-C37B63E9B9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6BBD69-97A1-4B0E-A04E-C37B63E9B9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6BBD69-97A1-4B0E-A04E-C37B63E9B9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C465632-C421-444F-AB03-A8D5E8794CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C465632-C421-444F-AB03-A8D5E8794CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C465632-C421-444F-AB03-A8D5E8794CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C465632-C421-444F-AB03-A8D5E8794CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

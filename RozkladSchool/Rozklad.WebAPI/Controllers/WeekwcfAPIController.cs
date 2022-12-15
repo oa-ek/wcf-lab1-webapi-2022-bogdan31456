@@ -16,7 +16,7 @@ namespace Rozklad.WebAPI.Controllers
 
             this.weekApiRepository = weekApiRepository;
         }
-
+      
         [HttpGet]
 
         public async Task<IEnumerable<WeekReadDto>> GetListAsync()

@@ -15,7 +15,11 @@ namespace Rozklad.WebAPI.Controllers
 
             this.timetableApiRepository = timetableApiRepository;
         }
-
+       /* [HttpGet("timetable/{id}")]
+        public Timetable GetTeacher(int id)
+        {
+            return teacherAPIRepository.GetTeacher(id);
+        }*/
         [HttpGet]
 
         public async Task<IEnumerable<TimetableReadDto>> GetListAsync()

@@ -18,7 +18,11 @@ namespace Rozklad.WebAPI.Controllers
 
             this.cabinetApiRepository = cabinetApiRepository;
         }
-
+        [HttpGet("cabinet/{id}")]
+        public Cabinet GetCabinet(int id)
+        {
+            return cabinetApiRepository.GetCabinet(id);
+        }
         [HttpGet]
 
         public async Task<IEnumerable<CabinetReadDto>> GetListAsync()
