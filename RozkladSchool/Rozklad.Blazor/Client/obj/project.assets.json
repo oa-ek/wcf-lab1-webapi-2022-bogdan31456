@@ -1448,6 +1448,19 @@
         "runtime": {
           "bin/placeholder/Rozklad.Repository.dll": {}
         }
+      },
+      "RozkladClient.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Rozklad.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RozkladClient.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RozkladClient.Infrastructure.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -2728,6 +2741,19 @@
         },
         "runtime": {
           "bin/placeholder/Rozklad.Repository.dll": {}
+        }
+      },
+      "RozkladClient.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Rozklad.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RozkladClient.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RozkladClient.Infrastructure.dll": {}
         }
       }
     }
@@ -5021,6 +5047,11 @@
       "type": "project",
       "path": "../../Rozklad.Repository/Rozklad.Repository.csproj",
       "msbuildProject": "../../Rozklad.Repository/Rozklad.Repository.csproj"
+    },
+    "RozkladClient.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../RozkladClient.Infrastructure/RozkladClient.Infrastructure.csproj",
+      "msbuildProject": "../../RozkladClient.Infrastructure/RozkladClient.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5030,7 +5061,8 @@
       "Rozklad.Blazor.Shared >= 1.0.0",
       "Rozklad.Core >= 1.0.0",
       "Rozklad.Infrastructure >= 1.0.0",
-      "Rozklad.Repository >= 1.0.0"
+      "Rozklad.Repository >= 1.0.0",
+      "RozkladClient.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5076,6 +5108,9 @@
             },
             "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj": {
               "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\Rozklad.Repository.csproj"
+            },
+            "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\RozkladClient.Infrastructure\\RozkladClient.Infrastructure.csproj": {
+              "projectPath": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\RozkladClient.Infrastructure\\RozkladClient.Infrastructure.csproj"
             }
           }
         }

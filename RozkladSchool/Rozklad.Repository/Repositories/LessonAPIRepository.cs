@@ -41,7 +41,7 @@ namespace Rozklad.Repository.Repositories
         {
             var cabinet = _ctx.Lessons.FirstOrDefault(x => x.LessonId == updatedLesson.LessonId);
             cabinet.LessonName = updatedLesson.LessonName;
-           // cabinet.CabinetName = updatedCabinet.Name;
+            //cabinet.CabinetName = updatedCabinet.Name;
             await _ctx.SaveChangesAsync();
         }
 

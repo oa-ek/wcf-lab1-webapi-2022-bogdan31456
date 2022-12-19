@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Rozklad.Core.Migrations
 {
-    public partial class firsttest : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -328,9 +328,9 @@ namespace Rozklad.Core.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "001bbad2-01fe-45c8-a577-5ef3ed4afc55", "5b1ab49b-aa16-4da7-8984-f244a1cfae81", "Moderator", "MODERATOR" },
-                    { "102f2400-3828-42d9-9e8a-3b4509de659b", "0403cc29-c642-47d5-bd95-b648718619ae", "Admin", "ADMIN" },
-                    { "4201f60b-47c3-4702-b3f6-5eeeafc38c2c", "eae5b5ee-cfc9-485f-a7f7-292596dc9e18", "User", "USER" }
+                    { "5a1b8b69-b7ee-449f-b4ac-02486b7189cc", "9369aabc-3afe-49ce-a100-dfb203ce3f37", "Moderator", "MODERATOR" },
+                    { "609d9e2c-8de9-412d-aa96-3c177b92145d", "b75defae-5984-44da-8f4b-838c456d53b0", "User", "USER" },
+                    { "b5d861f2-0f84-4366-85b2-2d75b5c15fbc", "476bea3f-9308-4a97-844a-e8def46e3dc1", "Admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -338,9 +338,9 @@ namespace Rozklad.Core.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "66a16232-87a7-455b-9d1c-62b35b7e76d9", 0, "33dc33d2-d464-497c-8dce-c74131bec4f6", "user@rozkladschool.com", true, null, null, false, null, "USER@ROZKLADSCHOOL.COM", "USER@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEO84x5yTrAUFeCNpibQnv9v+0Yc1lnC/jvrHPdlDErVIgkfvCeiqxNmWZSzciuLlkA==", null, false, "bdbb4327-9cdf-46cd-a4b2-fb8da736e27b", false, "user@rozkladschool.com" },
-                    { "d55dbbe4-1c9c-4504-9a69-6fc93d2ffbbd", 0, "ef2e710e-89c9-41e0-83f1-4068cd7c6152", "moderator@rozkladschool.com", true, null, null, false, null, "MODERATOR@ROZKLADSCHOOL.COM", "MODERATOR@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEL8U7eW69k4tbNLe+t5ncQIaW7Wcxl5yJRm0y061FbzXouK8WUZ2F7bh/5bGuutTAg==", null, false, "67f3bd02-8684-48a4-a94b-3d9ca2452f70", false, "moderator@rozkladschool.com" },
-                    { "d6830a04-57d6-4ffb-a6a5-302e42253a71", 0, "d2810850-e9d3-4067-80ed-8da4dfc073ed", "admin@rozkladschool.com", true, null, null, false, null, "ADMIN@ROZKLADSCHOOL.COM", "ADMIN@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEJfUyrvzcY9FX36iRD6Rf1XcuTXwSKDS5gi8VTE0zVhKNdwZrlSRqljbrFeu7+sLGA==", null, false, "e901c46f-3416-4f6a-9cf6-03b780d48791", false, "admin@rozkladschool.com" }
+                    { "9a6c4a36-5c23-4245-b532-a62ea49d2b11", 0, "10ca251e-58f8-403b-815a-8f02879cd580", "user@rozkladschool.com", true, null, null, false, null, "USER@ROZKLADSCHOOL.COM", "USER@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEF8pq7XY5u8OYFNOKoPOMwSJ1t9S/i3qS1LKIVCGJHUrcEnUrTHmUMmdB3VzbzoQlw==", null, false, "a2a9cb85-86ba-4e7f-93e7-dfba35f5e172", false, "user@rozkladschool.com" },
+                    { "aebff24b-9214-4f7c-90da-07cd0e397ee0", 0, "36e8bc01-7581-491c-8e5a-6cc83f040ae6", "moderator@rozkladschool.com", true, null, null, false, null, "MODERATOR@ROZKLADSCHOOL.COM", "MODERATOR@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEMXJF4+73vIH+/5vItcDAryZUFS0kyuFUjIGslNiFHajkTH2fPgaE6K5d+fGOgohqw==", null, false, "4fd36fd5-3483-4dfd-b0bb-2e8d7526589f", false, "moderator@rozkladschool.com" },
+                    { "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f", 0, "6b559d99-adf0-4a33-9f82-08ce623b68c0", "admin@rozkladschool.com", true, null, null, false, null, "ADMIN@ROZKLADSCHOOL.COM", "ADMIN@ROZKLADSCHOOL.COM", "AQAAAAEAACcQAAAAEN/5jPJ2krN5uDXU8kh85Xi0jKxG0N45ZCYwF9t8LqAQjbKj3g7b3BwLWm3/C+FtFQ==", null, false, "b1f0e66e-6f10-4014-be0d-fb43763bd418", false, "admin@rozkladschool.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -400,9 +400,9 @@ namespace Rozklad.Core.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "4201f60b-47c3-4702-b3f6-5eeeafc38c2c", "66a16232-87a7-455b-9d1c-62b35b7e76d9" },
-                    { "102f2400-3828-42d9-9e8a-3b4509de659b", "d6830a04-57d6-4ffb-a6a5-302e42253a71" },
-                    { "4201f60b-47c3-4702-b3f6-5eeeafc38c2c", "d6830a04-57d6-4ffb-a6a5-302e42253a71" }
+                    { "609d9e2c-8de9-412d-aa96-3c177b92145d", "9a6c4a36-5c23-4245-b532-a62ea49d2b11" },
+                    { "609d9e2c-8de9-412d-aa96-3c177b92145d", "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f" },
+                    { "b5d861f2-0f84-4366-85b2-2d75b5c15fbc", "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f" }
                 });
 
             migrationBuilder.InsertData(
@@ -433,17 +433,17 @@ namespace Rozklad.Core.Migrations
             migrationBuilder.InsertData(
                 table: "Timetables",
                 columns: new[] { "TimetableId", "CabinetId", "Day", "LessonId", "LessonNumber", "TimeEnd", "TimeStart", "UserId", "WeekId" },
-                values: new object[] { 1, 1, "Tuesday", 1, 1, "10:45", "10:00", "d6830a04-57d6-4ffb-a6a5-302e42253a71", 1 });
+                values: new object[] { 1, 1, "Wednesday", 1, 1, "10:45", "10:00", "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f", 1 });
 
             migrationBuilder.InsertData(
                 table: "Timetables",
                 columns: new[] { "TimetableId", "CabinetId", "Day", "LessonId", "LessonNumber", "TimeEnd", "TimeStart", "UserId", "WeekId" },
-                values: new object[] { 2, 2, "Thursday", 2, 2, "10:45", "10:00", "d6830a04-57d6-4ffb-a6a5-302e42253a71", 2 });
+                values: new object[] { 2, 2, "Wednesday", 2, 2, "10:45", "10:00", "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f", 2 });
 
             migrationBuilder.InsertData(
                 table: "Timetables",
                 columns: new[] { "TimetableId", "CabinetId", "Day", "LessonId", "LessonNumber", "TimeEnd", "TimeStart", "UserId", "WeekId" },
-                values: new object[] { 3, 3, "Wednesday", 3, 3, "11:45", "11:00", "d6830a04-57d6-4ffb-a6a5-302e42253a71", 3 });
+                values: new object[] { 3, 3, "Tuesday", 3, 3, "11:45", "11:00", "c644a20f-3af8-46e1-9f4e-03b8eb7fdb6f", 3 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

@@ -1,0 +1,75 @@
+﻿@using Rozklad.Core
+@using Rozklad.Repository.Dto.TimetableDto
+@using RozkladClient.Infrastructure
+
+
+@inject NavigationManager Navigation
+@inject HttpTimetableService timetableService
+
+
+
+
+@if (TimetableRead == null)
+{
+    <p><em>У вас нульове значення...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>День</th>
+                <th>Дисципліна</th>
+                @*<th>Кабінет</th>*@
+                <th> Номер уроку</th>
+                <th>Початок</th>
+                <th>Закінчення</th>
+                <th>Вчитель</th>
+            </tr>
+        </thead>
+       
+            
+                <tr>
+                    <td>@TimetableRead.TimetableId</td>
+                    <td>@TimetableRead.Day</td>
+                    @*<td>@TimetableRead.Lesson.Discipline.DisciplineName</td>*@
+                    <td>@TimetableRead.Cabinet.CabinetName</td>
+                    <th>@TimetableRead.LessonNumber</th>
+                    <td>@TimetableRead.TimeStart</td>
+                    <td>@TimetableRead.TimeEnd</td>
+                    <td>@TimetableRead.Lesson.Teacher.TeacherName</td>
+                </tr>
+             
+        
+      
+        @*<SfButton IsPrimary="true" OnClick="@GoToDetailsPage">Деталі</SfButton>
+        <SfButton CssClass="e-warning" OnClick="@GoToEditPage">Редагувати</SfButton>*@
+    </table>
+
+    <a href="/timetable.TimetableId" class="btn btn-warning">Редагувати</a>
+                    <a href="/timetable/delete.TimetableId" class="btn btn-danger">Видалити</a>
+}
+
+@code {
+	[Parameter]
+    public TimetableReadDto TimetableRead { get; set; }
+
+    //private IEnumerable<TimetableReadDto> Timetables = new List<TimetableReadDto>();
+
+    //protected override async Task OnInitializedAsync()
+    //{
+        //TimetableRead = await timetableService.GetTimetablesAsync();
+    //}
+
+    void GoToDetailsPage()
+    {
+        Navigation.NavigateTo($"/timetables/{TimetableRead.TimetableId}");
+    }
+
+    void GoToEditPage()
+    {
+        Navigation.NavigateTo($"/timetables/edit/{TimetableRead.TimetableId}");
+    }
+
+}

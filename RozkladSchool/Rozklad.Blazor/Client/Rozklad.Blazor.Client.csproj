@@ -15,6 +15,7 @@
     <ProjectReference Include="..\..\Rozklad.Core\Rozklad.Core.csproj" />
     <ProjectReference Include="..\..\Rozklad.Infrastructure\Rozklad.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Rozklad.Repository\Rozklad.Repository.csproj" />
+    <ProjectReference Include="..\..\RozkladClient.Infrastructure\RozkladClient.Infrastructure.csproj" />
     <ProjectReference Include="..\Shared\Rozklad.Blazor.Shared.csproj" />
   </ItemGroup>
 

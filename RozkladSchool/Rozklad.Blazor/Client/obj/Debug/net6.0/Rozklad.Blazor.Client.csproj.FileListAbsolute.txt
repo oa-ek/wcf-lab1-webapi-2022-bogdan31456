@@ -1053,3 +1053,11 @@ D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debu
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debug\net6.0\build-gz\iPjtySzs.gz
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debug\net6.0\build-gz\mVxVyD7G.gz
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debug\net6.0\build-gz\fSXXSZRB.gz
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\wwwroot\_framework\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\wwwroot\_framework\RozkladClient.Infrastructure.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\wwwroot\_framework\RozkladClient.Infrastructure.pdb.gz
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\wwwroot\_framework\RozkladClient.Infrastructure.dll.gz
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\bin\Debug\net6.0\RozkladClient.Infrastructure.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debug\net6.0\build-gz\wPiCXICF.gz
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Client\obj\Debug\net6.0\build-gz\CRufQflS.gz

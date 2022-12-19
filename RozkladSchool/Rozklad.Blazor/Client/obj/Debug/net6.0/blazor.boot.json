@@ -249,20 +249,22 @@
       "netstandard.dll": "sha256-klcvWVyHimPfDxg6W1A076EKpCB5ySxjtc7sxJEsGgE=",
       "System.Private.CoreLib.dll": "sha256-Y8kdbfPQ0YoYLGbOgzRmoVsnuMYNlA1hvLvDWFTtzrk=",
       "Rozklad.Blazor.Shared.dll": "sha256-sMxvhDJbSM6IDhoBVq881am3IBScTOEmVtGdDKYm0VY=",
-      "Rozklad.Core.dll": "sha256-HYb\/ZkfGOvhQYjr5EyciCvUpnN5yTyMKAzbAAt\/VBoo=",
-      "Rozklad.Infrastructure.dll": "sha256-VRoaw1gtHhqNTLqDOCLow8KF0eJ13R4E6mpeZitRXeY=",
-      "Rozklad.Repository.dll": "sha256-+XWF4aaiLB3IE5tvBAJBlq6XIZDm3HbeXvzFA52AAXc=",
-      "Rozklad.Blazor.Client.dll": "sha256-myfRtkbOU8Rwn57k7YOBJCEItkilEYjOJ\/iyVpYJpMY="
+      "Rozklad.Core.dll": "sha256-4aTFAgwqzSWMWVomoXi+g3q+k2Wyx8+8DFfTUT4ozRk=",
+      "Rozklad.Infrastructure.dll": "sha256-a0PTjNjbprWpU0zb3Wy8iGxcC68IvbFIbIgXZsAkRdI=",
+      "Rozklad.Repository.dll": "sha256-syAxPb1IT4NpWAY2Ykdw1XZ8gz3ForPEm5StLdbWUpM=",
+      "RozkladClient.Infrastructure.dll": "sha256-9hETmV4yeUB95vArqCpMGcbScLyapP5FWjA0rB7AZJg=",
+      "Rozklad.Blazor.Client.dll": "sha256-GYRxeDzATKlaTIxg8f8DODSX22ImcC9n7wrZMNyZzts="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Rozklad.Core.pdb": "sha256-dTsPlV632i9evjPNoe1uOqClSq+7joaPziKm6Vt06gg=",
-      "Rozklad.Infrastructure.pdb": "sha256-EQKc\/AsBfEmSVh8QnbCTB1CuNoP8JWcLWYKIbOTbPr0=",
-      "Rozklad.Repository.pdb": "sha256-VRzoNnOtU2FL2u0\/st2lUfztPGr2E3RpjDqYq6NP0PU=",
+      "Rozklad.Core.pdb": "sha256-7xMkcqv8lGiu2AKitfMyeQu9Ag1wkmSWWUkSvhV\/8Yg=",
+      "Rozklad.Infrastructure.pdb": "sha256-AiZotYkXZ\/3AOmDcSD1\/BKwBiewQgfa4CaHMb+0PD44=",
+      "Rozklad.Repository.pdb": "sha256-kguL6tWeB9pjHSqc64Lcg1lytLj1ZTAFp82rcFk\/jn8=",
+      "RozkladClient.Infrastructure.pdb": "sha256-nWo7EGx8MhOR4fXJcbTRu9FwdtVZhsNzJNb6Th10G\/M=",
       "Rozklad.Blazor.Shared.pdb": "sha256-akmU20kV\/\/0WKftbAv4gkUOfh+3TARpzqbMWjd7LMhQ=",
-      "Rozklad.Blazor.Client.pdb": "sha256-+zjf4iT8W+2FN7OUoEb+cWvH3kmPiyXRV3CpZ0TK28A="
+      "Rozklad.Blazor.Client.pdb": "sha256-+tkymukTNAFrpEJrHkhm4KJp0lunbygR6VO2MzNdlB0="
     },
     "runtime": {
       "dotnet.6.0.3.om6vrrpsxe.js": "sha256-pRmcHKZN4T\/YbX9dj6ITT4sNtkJ9w07OLcwl4645nPg=",

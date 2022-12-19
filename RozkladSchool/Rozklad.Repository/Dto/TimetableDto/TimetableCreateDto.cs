@@ -9,8 +9,9 @@ namespace Rozklad.Repository.Dto.TimetableDto
 {
     public class TimetableCreateDto
     {
-        
 
+
+        public int TimetableId { get; set; }
         [Required]
         public int LessonNumber { get; set; }
         [Required]
@@ -19,8 +20,7 @@ namespace Rozklad.Repository.Dto.TimetableDto
         public string? TimeStart { get; set; }
         [Required]
         public string? TimeEnd { get; set; }
-        [Required]
-        public string? IconPath { get; set; }
+
         [Required]
         public string? CabinetName { get; set; }
         [Required]
@@ -31,9 +31,10 @@ namespace Rozklad.Repository.Dto.TimetableDto
         public string? ClassRoomName { get; set; }
         [Required]
         public string? PupilName { get; set; }
+        public string WeekName { get; set; }
         [Required]
         public string? LessonName { get; set; }
-        public string? UserId { get; set; }
+        //public string? UserId { get; set; }
 
 
 

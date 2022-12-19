@@ -67,13 +67,13 @@ namespace Rozklad.Repository.Repositories
                 Day = v.Day,
                 TimeStart = v.TimeStart,
                 TimeEnd = v.TimeEnd,
-                DisciplineName = v.Lesson.Discipline.DisciplineName,
+               /* DisciplineName = v.Lesson.Discipline.DisciplineName,
                 PupilName = v.Lesson.Pupil.PupilName,
                 TeacherName = v.Lesson.Teacher.TeacherName,
                 LessonName = v.Lesson?.LessonName,
                 CabinetName = v.Cabinet?.CabinetName,
                 WeekName = v.Week?.WeekName,
-                UserId = v.UserId
+                UserId = v.UserId*/
             };
             return timetableDto;
         }

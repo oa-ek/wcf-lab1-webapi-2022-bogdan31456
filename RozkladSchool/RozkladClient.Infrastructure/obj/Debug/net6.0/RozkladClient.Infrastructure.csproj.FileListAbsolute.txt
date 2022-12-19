@@ -1,0 +1,17 @@
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\RozkladClient.Infrastructure.deps.json
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\RozkladClient.Infrastructure.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\Rozklad.Core.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\Rozklad.Repository.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\Rozklad.Repository.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\bin\Debug\net6.0\Rozklad.Core.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.csproj.AssemblyReference.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.AssemblyInfoInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.AssemblyInfo.cs
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.csproj.CoreCompileInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.csproj.CopyComplete
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\refint\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\RozkladClient.Infrastructure.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\RozkladClient.Infrastructure\obj\Debug\net6.0\ref\RozkladClient.Infrastructure.dll

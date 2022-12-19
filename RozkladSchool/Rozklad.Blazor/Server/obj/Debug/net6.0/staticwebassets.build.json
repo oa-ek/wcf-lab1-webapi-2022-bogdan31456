@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L1+Z1cRqfjtSUbaQd4TJ3Cna/hJ0FS0MxvCLxp+1oos=",
+  "Hash": "1i/SMtZYYoFRgupwMitAA0hor273XUdAi/AkKxc8nS4=",
   "Source": "Rozklad.Blazor.Server",
   "BasePath": "_content/Rozklad.Blazor.Server",
   "Mode": "Default",
@@ -1557,6 +1557,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Repository\\bin\\Debug\\net6.0\\Rozklad.Repository.pdb"
+    },
+    {
+      "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.dll",
+      "SourceId": "Rozklad.Blazor.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RozkladClient.Infrastructure.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\RozkladClient.Infrastructure\\bin\\Debug\\net6.0\\RozkladClient.Infrastructure.dll"
+    },
+    {
+      "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.pdb",
+      "SourceId": "Rozklad.Blazor.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RozkladClient.Infrastructure.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\RozkladClient.Infrastructure\\bin\\Debug\\net6.0\\RozkladClient.Infrastructure.pdb"
     },
     {
       "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.batteries_v2.dll",
@@ -5707,6 +5741,23 @@
       "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.dll"
     },
     {
+      "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\obj\\Debug\\net6.0\\build-gz\\CRufQflS.gz",
+      "SourceId": "Rozklad.Blazor.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RozkladClient.Infrastructure.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.pdb"
+    },
+    {
       "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\obj\\Debug\\net6.0\\build-gz\\ctchB3k2.gz",
       "SourceId": "Rozklad.Blazor.Client",
       "SourceType": "Project",
@@ -8340,6 +8391,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
+      "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\obj\\Debug\\net6.0\\build-gz\\wPiCXICF.gz",
+      "SourceId": "Rozklad.Blazor.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RozkladClient.Infrastructure.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RozkladClient.Infrastructure.dll"
     },
     {
       "Identity": "D:\\wcf-lab1-webapi-2022-bogdan31456\\RozkladSchool\\Rozklad.Blazor\\Client\\obj\\Debug\\net6.0\\build-gz\\WSmaC976.gz",

@@ -12,3 +12,17 @@ C:\Users\Admin\Desktop\wcf-lab1-webapi-2022-Pavlo74-main\RozkladSchool\Rozklad.C
 C:\Users\Admin\Desktop\wcf-lab1-webapi-2022-Pavlo74-main\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.pdb
 C:\Users\Admin\Desktop\wcf-lab1-webapi-2022-Pavlo74-main\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.genruntimeconfig.cache
 C:\Users\Admin\Desktop\wcf-lab1-webapi-2022-Pavlo74-main\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\ref\Rozklad.Core.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\bin\Debug\net6.0\Rozklad.Core.deps.json
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\bin\Debug\net6.0\Rozklad.Core.runtimeconfig.json
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\bin\Debug\net6.0\Rozklad.Core.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\bin\Debug\net6.0\Rozklad.Core.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.csproj.AssemblyReference.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.AssemblyInfoInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.AssemblyInfo.cs
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.csproj.CoreCompileInputs.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\refint\Rozklad.Core.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\Rozklad.Core.genruntimeconfig.cache
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Core\obj\Debug\net6.0\ref\Rozklad.Core.dll

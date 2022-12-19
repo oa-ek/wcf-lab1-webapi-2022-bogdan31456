@@ -112,3 +112,10 @@ D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debu
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Rozklad.Core.pdb
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Rozklad.Infrastructure.pdb
 D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Rozklad.Repository.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\RozkladClient.Infrastructure.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\RozkladClient.Infrastructure.pdb
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\wcf-lab1-webapi-2022-bogdan31456\RozkladSchool\Rozklad.Blazor\Server\obj\Debug\net6.0\Rozklad.Blazor.Server.MvcApplicationPartsAssemblyInfo.cs

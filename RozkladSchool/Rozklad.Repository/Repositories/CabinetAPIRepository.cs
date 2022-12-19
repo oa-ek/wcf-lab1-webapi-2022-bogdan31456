@@ -67,5 +67,12 @@ namespace Rozklad.Repository.Repositories
         {
             return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == name);
         }
+
+        public async Task<Cabinet> AddCabinetAsync(Cabinet cabinet)
+        {
+            _ctx.Cabinets.Add(cabinet);
+            await _ctx.SaveChangesAsync();
+            return _ctx.Cabinets.FirstOrDefault(x => x.CabinetName == cabinet.CabinetName);
+        }
     }
 }
